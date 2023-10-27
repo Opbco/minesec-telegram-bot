@@ -1,7 +1,7 @@
 {
-  "name": "telegram-bot-sitepoint",
+  "name": "telegram-bot-minesec",
   "version": "1.0.0",
-  "description": "Telegram bot for labelling articles",
+  "description": "Telegram bot for minesec assistance",
   "main": "src/app.js",
   "scripts": {
     "start": "node src/app.js",
@@ -10,12 +10,14 @@
   "keywords": [
     "Telegram",
     "Node.js",
-    "Javascript"
+    "Javascript",
+    "assistance",
+    "MINESEC"
   ],
-  "author": "Michiel Mulders",
-  "license": "ISC",
+  "author": "OWONO Philippe Brice",
+  "license": "MIT",
   "dependencies": {
     "dotenv": "^8.0.0",
-    "node-telegram-bot-api": "^0.30.0"
+    "node-telegram-bot-api": "^0.64.0"
   }
 }
