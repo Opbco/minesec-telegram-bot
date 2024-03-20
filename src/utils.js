@@ -1,7 +1,7 @@
 const fetch = require("node-fetch");
 const fs = require("fs");
 const MINESEC_BASE_URL = "https://minesecdrh.cm/api/";
-const MINESEC_MAIL_URL = "http://mail.minesec.gov.cm/api/open/";
+const MINESEC_MAIL_URL = "http://127.0.0.1:8001/api/open/";
 
 const getListAvailableFiles = () => {
   let myFiles;
